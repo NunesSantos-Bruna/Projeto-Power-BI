@@ -1,2 +1,39 @@
  People Overview teve como objetivo fornecer uma visão geral do quadro de colaboradores, apresentando os principais indicadores de Recursos Humanos e a estrutura organizacional da empresa. Nesta etapa, foi possível identificar o headcount total, a quantidade de colaboradores ativos e desligados, bem como a distribuição por departamentos e características básicas do quadro funcional.
 A AC1 estabeleceu a base analítica do projeto, preparando o dataset, a modelagem e os indicadores que serviram de fundamento para as análises mais aprofundadas das etapas seguintes
+
+🧮 1. Headcount (Total de Colaboradores)
+
+Headcount =
+COUNT(HR_Analytics[EmployeeNumber])
+
+O que foi feito:
+Conta o número total de colaboradores registrados no dataset, utilizando o identificador único de funcionário.
+Por que usamos:
+O headcount representa o tamanho da força de trabalho e serve como base para praticamente todas as análises de RH.
+
+🧮 2. Funcionários Ativos
+
+Funcionarios Ativos =
+CALCULATE(
+    COUNT(HR_Analytics[EmployeeNumber]),
+    HR_Analytics[Attrition] = "No"
+)
+
+O que foi feito:
+
+Conta somente os colaboradores com Attrition = "No", ou seja, que permanecem na empresa.
+Por que usamos:
+Permite entender a população atual da empresa e diferencia ativos de desligados.
+
+🧮 3. Funcionários Desligados
+
+Funcionarios Desligados =
+CALCULATE(
+    COUNT(HR_Analytics[EmployeeNumber]),
+    HR_Analytics[Attrition] = "Yes"
+)
+
+O que foi feito:
+Conta os colaboradores que possuem Attrition = "Yes", indicando desligamento.
+Por que usamos:
+Essa medida é a base para a análise de turnover desenvolvida na AC2.
