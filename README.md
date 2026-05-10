@@ -1,3 +1,5 @@
+Este projeto tem como objetivo desenvolver uma solução de People Analytics utilizando Business Intelligence (BI) para análise de dados de Recursos Humanos. A aplicação tem como foco apoiar a tomada de decisão estratégica por meio da visualização e análise de indicadores relacionados ao quadro de colaboradores da empresa.
+
 Estrutura do Repositório
 people-analytics/
 │
