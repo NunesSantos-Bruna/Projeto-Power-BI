@@ -1,22 +1,2 @@
-## ✅ AC 3 – Absenteísmo & Perfil
-
-### 🎯 Objetivo
-Esta etapa do projeto tem como objetivo realizar a **análise do perfil demográfico e comportamental dos colaboradores**, aplicando conceitos de **People Analytics** por meio de Business Intelligence. A AC3 busca compreender a composição da força de trabalho, considerando faixa etária, gênero e indicadores de comportamento, além de analisar o **absenteísmo (simulado)** e sua distribuição entre as áreas da empresa.
-
----
-
-### 📊 Funcionalidades Desenvolvidas
-- Análise do **Perfil Etário** dos colaboradores (faixas de idade)
-- **Distribuição por Gênero**
-- Simulação e análise do **Absenteísmo**
-- **Comparação entre Departamentos**
-- Visualizações interativas para apoio à tomada de decisão
-
----
-
-### 📈 Indicadores Utilizados
-- **Idade Média e Faixas Etárias**: identificação da composição etária predominante da empresa.
-- **Distribuição Percentual por Gênero**: análise da diversidade no quadro de colaboradores.
-- **Absenteísmo (simulado)**: indicador comportamental utilizado para avaliar possíveis riscos organizacionais.
-- **Comparação entre áreas**: identificação de departamentos com maior concentração de comportamentos críticos.
-
+AC 3 – Absenteísmo & Perfil teve como objetivo analisar o perfil demográfico e comportamental dos colaboradores, complementando as análises das etapas anteriores. Nesta fase, foram avaliadas a composição etária, a distribuição por gênero e o absenteísmo (simulado), além da comparação desses indicadores entre os departamentos.
+A AC3 permitiu identificar padrões de comportamento e possíveis áreas com maior risco organizacional, reforçando o uso de People Analytics como apoio à gestão estratégica de pessoas e consolidando a evolução analítica do projeto até o nível comportamental.
