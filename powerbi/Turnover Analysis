@@ -1,0 +1,42 @@
+## ✅ AC 2 – Turnover Analysis
+
+### 🎯 Objetivo
+Esta etapa do projeto tem como objetivo realizar a **análise de desligamentos (Turnover)**, utilizando conceitos de **People Analytics** aplicados a Business Intelligence. A análise busca identificar o nível de rotatividade da empresa, os departamentos mais impactados, os tipos de desligamento e sua evolução ao longo do tempo, apoiando a tomada de decisão estratégica na área de Recursos Humanos.
+
+---
+
+### 📊 Funcionalidades Desenvolvidas
+- Cálculo do **Turnover Geral (%)**
+- Análise de **Turnover por Departamento**
+- Comparação entre **Desligamentos Voluntários e Involuntários**
+- **Evolução Mensal dos Desligamentos**
+- Identificação de **Departamentos Críticos**
+
+---
+
+### 📈 Indicadores Utilizados
+- **Taxa de Turnover (%)**: relação entre o número de desligamentos e o headcount da empresa, indicando o nível de rotatividade.
+- **Departamentos Críticos**: áreas com maior volume de desligamentos, sinalizando possíveis riscos organizacionais.
+
+---
+
+### 📉 Análise dos Resultados
+A análise evidencia que o turnover não ocorre de forma homogênea entre os departamentos, sendo possível identificar áreas com maior concentração de desligamentos. Esses departamentos podem representar riscos relacionados à gestão, clima organizacional, carga de trabalho ou políticas internas.
+
+A separação entre desligamentos voluntários e involuntários contribui para entender se a perda de colaboradores ocorre por decisão da empresa ou por iniciativa dos próprios profissionais, oferecendo subsídios para estratégias de retenção de talentos.
+
+A visualização da **evolução mensal dos desligamentos** permite identificar períodos de maior impacto, apoiando análises sazonais e ações preventivas.
+
+---
+
+### 🎥 Vídeo Explicativo
+**Tema:** *“Identificando onde a empresa mais perde pessoas e por quê”*  
+
+No vídeo é apresentado o dashboard de Turnover, destacando os principais indicadores, os departamentos mais críticos, o comportamento dos desligamentos ao longo do tempo e os possíveis fatores associados à saída dos colaboradores.
+
+---
+
+### 📚 Referência Conceitual
+People Analytics e análises de Turnover são amplamente utilizados em projetos acadêmicos de Business Intelligence por permitirem a aplicação prática de indicadores estratégicos de RH, conforme estudos e recomendações da literatura especializada, como abordado no blog da Coupler (blog.coupler.io).
+
+---
