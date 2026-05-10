@@ -1,2 +1,45 @@
 AC 2 – Turnover Analysis teve como foco a análise de desligamentos (turnover), permitindo identificar o nível de rotatividade da empresa e os impactos por área. Foram desenvolvidos indicadores como a Taxa de Turnover (%), a análise de turnover por departamento, a comparação entre desligamentos voluntários e involuntários e a evolução mensal dos desligamentos.
 Essa etapa possibilitou a identificação de departamentos críticos e forneceu insights estratégicos relacionados à retenção de talentos e à gestão de pessoas, ampliando a maturidade analítica do projeto em relação à AC1.
+
+🧮 4. Taxa de Turnover (%)
+
+Taxa de Turnover (%) =
+DIVIDE(
+    [Funcionarios Desligados],
+    COUNT(HR_Analytics[EmployeeNumber]),
+    0
+)
+
+O que foi feito:
+Divide o número de funcionários desligados pelo total de colaboradores, retornando um valor percentual.
+Por que usamos:
+A taxa de turnover é um dos principais indicadores estratégicos de RH, pois mede o nível de rotatividade da empresa.
+
+🧮 5. Desligamentos Voluntários
+
+Desligamentos Voluntários =
+CALCULATE(
+    [Funcionarios Desligados],
+    HR_Analytics[TerminationType] = "Voluntário"
+)
+
+O que foi feito:
+Filtra os desligamentos classificados como voluntários, considerando a coluna criada no processo de modelagem.
+Por que usamos:
+Permite entender o quanto das saídas ocorre por iniciativa do colaborador, auxiliando na análise de retenção de talentos.
+
+🧮 6. Desligamentos Involuntários
+
+Desligamentos Involuntários =
+CALCULATE(
+    [Funcionarios Desligados],
+    HR_Analytics[TerminationType] = "Involuntário"
+)
+
+O que foi feito:
+Conta os desligamentos classificados como involuntários (decisão da empresa).
+Por que usamos:
+Ajuda a diferenciar desligamentos administrativos de perdas espontâneas de talentos.
+
+📌 Observação importante:
+As colunas AnoDesligamento, MesDesligamento e AnoMes não são DAX, mas colunas criadas no Power Query e utilizadas apenas nos gráficos de evolução mensal.
