@@ -4,8 +4,7 @@ Estrutura do Repositório
 Projeto-Power-Bi/
 │   └── HR_Analytics.csv
 │
-├── powerbi/
-│   └── people_analytics_ac1.pbix
+├── Descrição-do-projeto
 │
 ├── docs/
 │   └── dicionario_dados.md
