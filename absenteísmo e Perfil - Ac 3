@@ -1,2 +1,12 @@
 AC 3 – Absenteísmo & Perfil teve como objetivo analisar o perfil demográfico e comportamental dos colaboradores, complementando as análises das etapas anteriores. Nesta fase, foram avaliadas a composição etária, a distribuição por gênero e o absenteísmo (simulado), além da comparação desses indicadores entre os departamentos.
 A AC3 permitiu identificar padrões de comportamento e possíveis áreas com maior risco organizacional, reforçando o uso de People Analytics como apoio à gestão estratégica de pessoas e consolidando a evolução analítica do projeto até o nível comportamental.
+
+🧮 7. Absenteísmo Médio (simulado)
+
+Absenteismo Médio =
+COUNT(HR_Analytics[EmployeeNumber])
+
+O que foi feito:
+Utiliza a contagem de colaboradores como base para análise comparativa de absenteísmo entre áreas, em conjunto com a coluna de absenteísmo simulada.
+Por que usamos:
+Como o dataset não possui absenteísmo real, essa medida permite comparar comportamentos e padrões entre departamentos em um cenário acadêmico controlado.
